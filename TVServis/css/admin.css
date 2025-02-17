@@ -1,0 +1,106 @@
+
+.telo{
+    background-color:#f1f2f6; 
+}
+
+.text-center{
+    text-align: center;
+}
+
+.menu{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding: 0.5%;
+    margin:0 auto;
+    border-bottom: 1px solid black; 
+    font-size:large;
+    background-color: white;
+}
+
+.nav-link, .nav-link:hover,.nav-link:focus{
+    color:red;
+    font-weight: 500;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.text-body-secondary {
+    color: #7f8a88!important;
+}
+
+.main-content {
+    padding: 3% 0;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin:  0 auto;
+}
+
+.col-4 {
+    width: 18%;
+    background-color: white;
+    margin: 3.5%;
+    padding: 3%;
+    float:left;
+}
+
+.clearfix
+{
+    float: none;
+    clear: both;
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding:1%;
+    text-align: left;
+}
+
+td{
+    padding: 1%;
+}
+
+.telo2{
+    padding:10% 0;
+}
+
+.telo3{
+    padding:5% 0;
+}
+
+.login{
+    margin:auto;
+    width:40%;
+    border:2px solid black;
+    text-align: center;
+}
+
+
+.forma{
+    padding:0 6% 6%;
+    margin:auto;
+    width: 50%;
+}
+
+.podaci{
+    font-size:24px;
+}

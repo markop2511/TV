@@ -1,0 +1,180 @@
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #F48221!important;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+.dropdown-menu{
+    background-color: #F48221;
+}
+
+.dropdown-item{
+    color:white;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: white;
+    background-color: black;
+}
+
+.text-body-secondary {
+    color: #7f8a88!important;
+}
+
+.btn:hover {
+    color: white;
+    background-color: gray;
+    border-color: gray;
+}
+
+.btn-light{
+    border-radius: 0px;
+    font-weight: 500;
+    font-size: large;
+}
+
+.carousel-h2{
+    left: 99.375px;
+    top: 268.312px;
+    background: #F48221;
+    padding: 4.96875px 14.9062px; 
+    border-left: 5px solid white;
+    font-weight: 300;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 49.6875px;
+    line-height: 49.6875px;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.proizvod{
+    width: 300px;
+    border-color: #7f8a88;
+    border-style: solid;
+    border-width: 10px;
+}
+
+.naslov{
+    color:#F48221;
+    text-decoration: auto;
+}
+
+.naslov:hover {
+    color:black;
+    text-decoration: underline;
+}
+
+.opis{
+    color: #3f4544;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.kontakt{
+    font-family: "Exo", sans-serif;
+}
+
+.kontaktp{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.dugme{
+    background-color: #F48221;
+    color:white;
+    border-radius: 3px;
+    font-size:18px;
+    border:none;
+    line-height: 28px;
+    padding: 14px 36px;
+}
+
+.dugme:hover{
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1), 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #F48221;
+    outline: 0;
+    box-shadow: 0 0 3px 0.1rem #F48221;
+}
+
+.products-box {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 3px 4.7px 0.3px rgba(0, 0, 0, 0.24);
+    position: relative;
+    transition: box-shadow 0.2s ease-in-out 0s;
+    overflow: hidden;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.pro-imgage {
+    float: left;
+    margin-top: 10px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 265px;
+}
+
+.product-desc {
+    float: left;
+    width: 100%;
+    text-align: left;
+    padding-top: 20px;
+    height: 70px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.pro-imgage img {
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product-desc a{
+    color: #747477 !important;
+    text-decoration: none;
+}
+
+.product-desc a:hover {
+    color: #131313 !important;
+    text-decoration: none !important;
+}
+
+.products-box:hover,.products-box:focus {
+    box-shadow: 0 39px 56.4px 3.6px rgba(0, 0, 0, 0.24);
+    transition: box-shadow 0.2s ease-in-out 0s;
+}
+
+.clearfix
+{
+    float: none;
+    clear: both;
+}
